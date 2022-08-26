@@ -9,6 +9,8 @@ console.log(computerNumber);
 /* comparo i risultati e stampo il vincitore */
 if (humanNumber > computerNumber) {
     console.log("computer won");
+} else if (humanNumber === computerNumber) {
+    console.log("no winners here. Try again");
 } else {
     console.log("human won");
 }
